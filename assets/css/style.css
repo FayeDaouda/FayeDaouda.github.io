@@ -9,6 +9,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -20,14 +21,15 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/AA1.png") top right no-repeat;
-  background-size: cover;
+  background: #040404 url("../img/lgg.png") center right no-repeat;
+  background-size: auto 150%; 
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
   z-index: -1;
 }
+
 
 @media (min-width: 1024px) {
   body::before {
