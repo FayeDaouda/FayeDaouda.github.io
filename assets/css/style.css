@@ -151,6 +151,33 @@ h6 {
   }
 }
 
+/* CV Download Button */
+.btn-cv {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #800de4;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background 0.3s, transform 0.2s;
+  text-decoration: none;
+}
+
+.btn-cv:hover {
+  background: #6a0bbf;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.btn-cv i {
+  font-size: 17px;
+}
+
 /* Header Top */
 #header.header-top {
   height: 80px;
@@ -162,7 +189,8 @@ h6 {
 }
 
 #header.header-top .social-links,
-#header.header-top h2 {
+#header.header-top h2,
+#header.header-top .btn-cv-wrap {
   display: none;
 }
 
